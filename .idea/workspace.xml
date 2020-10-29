@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5aa92962-0366-4e22-8b2e-bfe5bb0c30c7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anti/Catboost_Pre.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anti/cls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anti/core_function.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/anti_4_112$anti_inde_gbm.coverage" NAME="anti-inde-gbm Coverage Results" MODIFIED="1586788913564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anti" />
+    <SUITE FILE_PATH="coverage/EnACP$Acr_CV.coverage" NAME="Acr_CV Coverage Results" MODIFIED="1598195373391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anti" />
+    <SUITE FILE_PATH="coverage/EnACP$Lightgbm_Rank__1_.coverage" NAME="Lightgbm_Rank (1) Coverage Results" MODIFIED="1598585504208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anti" />
+    <SUITE FILE_PATH="coverage/anti_4_14$anti_inde_gbm.coverage" NAME="anti-inde-gbm Coverage Results" MODIFIED="1587042777583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anti" />
+    <SUITE FILE_PATH="coverage/EnACP$CatBoost_Rank.coverage" NAME="CatBoost_Rank Coverage Results" MODIFIED="1598069579670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anti" />
+    <SUITE FILE_PATH="coverage/anti_4_112$countSequence.coverage" NAME="countSequence Coverage Results" MODIFIED="1586777373953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/anti_4_14$DrawnewPic.coverage" NAME="DrawnewPic Coverage Results" MODIFIED="1587094288340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/EnACP$anti_inde_gbm__feature_select_.coverage" NAME="anti-inde-gbm-(feature-select) Coverage Results" MODIFIED="1590164841001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anti" />
+    <SUITE FILE_PATH="coverage/EnACP$anti_cv_gbm_svm_4_7.coverage" NAME="anti_cv_gbm_svm_4_7 Coverage Results" MODIFIED="1597986887153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anti" />
+    <SUITE FILE_PATH="coverage/EnACP$testCV.coverage" NAME="testCV Coverage Results" MODIFIED="1598601795449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anti" />
+    <SUITE FILE_PATH="coverage/EnACP$Lightgbm_Rank.coverage" NAME="Lightgbm_Rank Coverage Results" MODIFIED="1598581803445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anti" />
+    <SUITE FILE_PATH="coverage/anti_4_14$DrawnewPic__1_.coverage" NAME="DrawnewPic (1) Coverage Results" MODIFIED="1587208668867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anti" />
+    <SUITE FILE_PATH="coverage/anti_4_18$countSequence__1_.coverage" NAME="countSequence (1) Coverage Results" MODIFIED="1587225136835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anti" />
+    <SUITE FILE_PATH="coverage/anti_4_18$DrawnewPic__1_.coverage" NAME="DrawnewPic (1) Coverage Results" MODIFIED="1587226099409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anti" />
+    <SUITE FILE_PATH="coverage/anti_4_112$draw.coverage" NAME="draw Coverage Results" MODIFIED="1586830236856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anti" />
+    <SUITE FILE_PATH="coverage/anti_4_14$anti_cv_gbm_svm_4_7.coverage" NAME="anti_cv_gbm_svm_4_7 Coverage Results" MODIFIED="1586880930522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anti" />
+    <SUITE FILE_PATH="coverage/EnACP$anti_inde_gbm_new_method.coverage" NAME="anti-inde-gbm-new-method Coverage Results" MODIFIED="1597224899004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anti" />
+    <SUITE FILE_PATH="coverage/EnACP$Catboost_Pre.coverage" NAME="Catboost_Pre Coverage Results" MODIFIED="1598532204296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anti" />
+    <SUITE FILE_PATH="coverage/EnACP$cls.coverage" NAME="cls Coverage Results" MODIFIED="1598065418926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anti" />
+    <SUITE FILE_PATH="coverage/EnACP$anti_inde_gbm.coverage" NAME="anti-inde-gbm Coverage Results" MODIFIED="1598617938199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anti" />
+    <SUITE FILE_PATH="coverage/EnACP$__builtin__.coverage" NAME="__builtin__ Coverage Results" MODIFIED="1596363251563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1296958657" />
+    <SUITE FILE_PATH="coverage/EnACP$anti_fl_pre.coverage" NAME="anti-fl-pre Coverage Results" MODIFIED="1598628217049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anti" />
+    <SUITE FILE_PATH="coverage/EnACP$SequenceEncoding_fasta.coverage" NAME="SequenceEncoding_fasta Coverage Results" MODIFIED="1596100108775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/EnACP$testfile.coverage" NAME="testfile Coverage Results" MODIFIED="1597557203356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anti" />
+    <SUITE FILE_PATH="coverage/anti_4_14$countSequence.coverage" NAME="countSequence Coverage Results" MODIFIED="1586880146135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/EnACP$anti_inde_gbm_unbalanced_mean_linux.coverage" NAME="anti-inde-gbm-unbalanced-mean-linux Coverage Results" MODIFIED="1597558272083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anti" />
+    <SUITE FILE_PATH="coverage/anti_4_14$draw.coverage" NAME="draw Coverage Results" MODIFIED="1587209049576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anti" />
+    <SUITE FILE_PATH="coverage/anti_4_14$countSequence__1_.coverage" NAME="countSequence (1) Coverage Results" MODIFIED="1587208915067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anti" />
+    <SUITE FILE_PATH="coverage/EnACP$draw.coverage" NAME="draw Coverage Results" MODIFIED="1590570485837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anti" />
+    <SUITE FILE_PATH="coverage/EnACP$testEasyEnsemble.coverage" NAME="testEasyEnsemble Coverage Results" MODIFIED="1598187337405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anti" />
+    <SUITE FILE_PATH="coverage/EnACP$anti_gespring.coverage" NAME="anti-gespring Coverage Results" MODIFIED="1592296369354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anti" />
+    <SUITE FILE_PATH="coverage/EnACP$testShuffle.coverage" NAME="testShuffle Coverage Results" MODIFIED="1597030071292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anti" />
+    <SUITE FILE_PATH="coverage/EnACP$Lightgbm_Pre.coverage" NAME="Lightgbm_Pre Coverage Results" MODIFIED="1602567361727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anti" />
+    <SUITE FILE_PATH="coverage/anti_4_18$jisuan.coverage" NAME="jisuan Coverage Results" MODIFIED="1587308319382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anti" />
+    <SUITE FILE_PATH="coverage/EnACP$core_function.coverage" NAME="core_function Coverage Results" MODIFIED="1601023376521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anti" />
+    <SUITE FILE_PATH="coverage/EnACP$anti_virus_inde.coverage" NAME="anti-virus-inde Coverage Results" MODIFIED="1591321018667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anti" />
+    <SUITE FILE_PATH="coverage/anti_4_112$anti_cv_gbm_svm_4_7.coverage" NAME="anti_cv_gbm_svm_4_7 Coverage Results" MODIFIED="1586829540090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anti" />
+    <SUITE FILE_PATH="coverage/EnACP$testAddNewFeature.coverage" NAME="testAddNewFeature Coverage Results" MODIFIED="1596101502742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anti" />
+    <SUITE FILE_PATH="coverage/anti_4_14$sequenceCount.coverage" NAME="sequenceCount Coverage Results" MODIFIED="1587108090893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anti" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="816911552">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="csv" value="4" />
+          <entry key="png" value="13" />
+          <entry key="py" value="22" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSV" value="4" />
+          <entry key="Image" value="13" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="22" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="2775" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="2775" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1630090716">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.80" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="2605" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="2605" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="csv" value="1" />
+          <entry key="png" value="5" />
+          <entry key="py" value="20" />
+          <entry key="pyi" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSV" value="1" />
+          <entry key="Image" value="5" />
+          <entry key="Python" value="20" />
+          <entry key="PythonStub" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1878822564">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="230" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="230" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1111683829">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="18" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.24" value="3" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.28" value="2" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.31" value="3" />
+          <entry key="project.open.time.32" value="3" />
+          <entry key="project.open.time.34" value="2" />
+          <entry key="project.open.time.35" value="2" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.41" value="2" />
+          <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.46" value="1" />
+          <entry key="project.open.time.48" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.51" value="1" />
+          <entry key="project.open.time.52" value="1" />
+          <entry key="project.open.time.59" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.72" value="1" />
+          <entry key="project.opened" value="45" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="54" />
+          <entry key="dummy" value="16" />
+          <entry key="py" value="14410" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="16" />
+          <entry key="Python" value="14464" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="csv" value="9" />
+          <entry key="jpg" value="9" />
+          <entry key="json" value="1" />
+          <entry key="png" value="1" />
+          <entry key="py" value="201" />
+          <entry key="tsv" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSV" value="1" />
+          <entry key="Image" value="10" />
+          <entry key="JSON" value="1" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Python" value="201" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="EnACP" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/anti/Lightgbm_Pre.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="67" column="26" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
+              <folding>
+                <element signature="e#24#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/py2/Lib/site-packages/pandas/core/indexes/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101322">
+              <caret line="3943" column="11" selection-start-line="3943" selection-start-column="11" selection-end-line="3943" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/py2/Lib/site-packages/joblib/numpy_pickle.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="13650">
+              <caret line="528" column="24" selection-start-line="528" selection-start-column="24" selection-end-line="528" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/anti/core_function.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5850">
+              <caret line="248" column="45" selection-start-line="248" selection-start-column="45" selection-end-line="248" selection-end-column="45" />
+              <folding>
+                <element signature="e#24#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/anti/cls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8658">
+              <caret line="334" column="21" selection-start-line="334" selection-start-column="21" selection-end-line="334" selection-end-column="21" />
+              <folding>
+                <marker date="1601023405744" expanded="true" signature="7421:7436" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/anti/Lightgbm_Rank.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="702">
+              <caret line="51" column="60" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/py2/Lib/pickle.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22256">
+              <caret line="862" column="29" selection-start-line="862" selection-start-column="29" selection-end-line="862" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>SVC</find>
+      <find>predict</find>
+      <find>INDEPENDENT_TEST</find>
+      <find>Training</find>
+      <find>print(&quot;Training&quot;)</find>
+      <find>split</find>
+      <find>param</find>
+      <find>time</find>
+      <find>method</find>
+      <find>logis</find>
+      <find>SvmOpt</find>
+      <find>Splie</find>
+      <find>SvmOpt Class</find>
+      <find>svm</find>
+      <find>light</find>
+      <find>filepath</find>
+      <find>le</find>
+      <find>trainmodel</find>
+      <find>feature_num</find>
+      <find>feature</find>
+      <find>print</find>
+      <find>dee</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/countSequence.py" />
+        <option value="$PROJECT_DIR$/DrawnewPic.py" />
+        <option value="$PROJECT_DIR$/anti/sequenceCount.py" />
+        <option value="$PROJECT_DIR$/anti/countSequence.py" />
+        <option value="$PROJECT_DIR$/anti/DrawnewPic.py" />
+        <option value="$PROJECT_DIR$/anti/jisuan.py" />
+        <option value="$PROJECT_DIR$/anti/anti-inde-gbm-(feature-select).py" />
+        <option value="$PROJECT_DIR$/anti/optimize-para.py" />
+        <option value="$PROJECT_DIR$/SVM-BayesHyperTuning.py" />
+        <option value="$PROJECT_DIR$/anti/SVM-BayesHyperTuning.py" />
+        <option value="$PROJECT_DIR$/anti/bayesHyperTuning.py" />
+        <option value="$PROJECT_DIR$/anti/SVM_BayesHyperTuning.py" />
+        <option value="$PROJECT_DIR$/anti/tocsv.py" />
+        <option value="$PROJECT_DIR$/anti/evaluation.py" />
+        <option value="$PROJECT_DIR$/anti/anti-virus-inde.py" />
+        <option value="$PROJECT_DIR$/anti/anti-gespring.py" />
+        <option value="$PROJECT_DIR$/anti/testAddNewFeature.py" />
+        <option value="$PROJECT_DIR$/anti/testmetric.py" />
+        <option value="$PROJECT_DIR$/anti/draw.py" />
+        <option value="$PROJECT_DIR$/anti/GW_Feature_Select.py" />
+        <option value="$PROJECT_DIR$/anti/anti-inde-gbm-new-method.py" />
+        <option value="$PROJECT_DIR$/anti/testShuffle.py" />
+        <option value="$PROJECT_DIR$/anti/Catboost_get_Aver_Rank.py" />
+        <option value="$PROJECT_DIR$/anti/testfile.py" />
+        <option value="$PROJECT_DIR$/anti/anti-inde-gbm-unbalanced-mean-linux.py" />
+        <option value="$PROJECT_DIR$/anti/identity-Compute.py" />
+        <option value="$PROJECT_DIR$/anti/Acr-CV.py" />
+        <option value="$PROJECT_DIR$/anti/testEasyEnsemble.py" />
+        <option value="$PROJECT_DIR$/anti/Acr_CV.py" />
+        <option value="$PROJECT_DIR$/anti/anti_cv_gbm_svm_4_7.py" />
+        <option value="$PROJECT_DIR$/anti/Catboost_Pre.py" />
+        <option value="$PROJECT_DIR$/SequenceEncoding_fasta.py" />
+        <option value="$PROJECT_DIR$/anti/CatBoost_Rank.py" />
+        <option value="$PROJECT_DIR$/anti/Lightgbm_Rank_mean.py" />
+        <option value="$PROJECT_DIR$/anti/Lightgbm_Rank.py" />
+        <option value="$PROJECT_DIR$/anti/testCV.py" />
+        <option value="$PROJECT_DIR$/anti/anti-inde-gbm.py" />
+        <option value="$PROJECT_DIR$/anti/anti-fl-pre.py" />
+        <option value="$PROJECT_DIR$/anti/core_function.py" />
+        <option value="$PROJECT_DIR$/anti/cls.py" />
+        <option value="$PROJECT_DIR$/anti/Lightgbm_Pre.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="552" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Angular</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="EnACP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EnACP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EnACP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EnACP" type="462c0819:PsiDirectoryNode" />
+              <item name="anti" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/EnACP/anti/core_function.py" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/ACR_Pre" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/anti/anti-gespring.py" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="anti-4-112" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="anti-4-112" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\EnACP\anti" />
+      <recent name="D:\EnACP\anti\Seq_Analysis" />
+      <recent name="D:\EnACP\anti\Result" />
+      <recent name="D:\EnACP\anti\Result_Visual" />
+      <recent name="D:\EnACP\anti\Data_Processing" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\EnACP\anti" />
+      <recent name="D:\anti-4-14\anti" />
+      <recent name="D:\anti-4-112\anti" />
+      <recent name="D:\anti-4-112" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.Lightgbm_Pre">
+    <configuration name="Lightgbm_Pre" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="anti-4-112" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\py2\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/anti" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/anti/Lightgbm_Pre.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="anti-4-112" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\py2\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="anti-fl-pre" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="anti-4-112" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\py2\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/anti" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/anti/anti-fl-pre.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="anti-inde-gbm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="anti-4-112" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\py2\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/anti" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/anti/anti-inde-gbm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="core_function" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="anti-4-112" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\py2\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/anti" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/anti/core_function.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testCV" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="anti-4-112" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\py2\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/anti" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/anti/testCV.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.anti-inde-gbm" />
+      <item itemvalue="Python.anti-fl-pre" />
+      <item itemvalue="Python.testCV" />
+      <item itemvalue="Python.Lightgbm_Pre" />
+      <item itemvalue="Python.core_function" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Lightgbm_Pre" />
+        <item itemvalue="Python.core_function" />
+        <item itemvalue="Python.anti-fl-pre" />
+        <item itemvalue="Python.anti-inde-gbm" />
+        <item itemvalue="Python.testCV" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5aa92962-0366-4e22-8b2e-bfe5bb0c30c7" name="Default Changelist" comment="" />
+      <created>1586655791634</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586655791634</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.08787346" visible="true" weight="0.046898637" />
+      <window_info id="Structure" order="1" sideWeight="0.91212654" side_tool="true" weight="0.24205749" />
+      <window_info id="Favorites" order="2" sideWeight="0.7908612" side_tool="true" weight="0.23903178" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" x="46" y="342" width="1306" height="333" id="Terminal" order="1" type="FLOATING" weight="0.5831874" />
+      <window_info active="true" anchor="bottom" x="0" y="22" width="1366" height="706" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.4340949" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5799649" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50075644" side_tool="true" weight="0.8101933" />
+      <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.74516696" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.14586994" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" auto_hide="true" x="26" y="275" width="1322" height="199" id="Python Console" order="12" weight="0.40246046" />
+      <window_info anchor="right" id="SciView" order="0" weight="0.70574886" />
+      <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" order="1" side_tool="true" weight="0.34814814" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32980332" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.08787346" visible="true" weight="0.18683812" />
+      <window_info id="Structure" order="1" sideWeight="0.91212654" side_tool="true" weight="0.24205749" />
+      <window_info id="Favorites" order="2" sideWeight="0.7908612" side_tool="true" weight="0.23903178" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" x="46" y="342" width="1306" height="333" id="Terminal" order="1" type="FLOATING" weight="0.5831874" />
+      <window_info active="true" anchor="bottom" x="0" y="22" width="1366" height="706" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.4903339" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5799649" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50075644" side_tool="true" weight="0.8101933" />
+      <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.74516696" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32864675" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" auto_hide="true" x="26" y="275" width="1322" height="199" id="Python Console" order="12" weight="0.40246046" />
+      <window_info anchor="right" id="SciView" order="0" weight="0.70574886" />
+      <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" order="1" side_tool="true" weight="0.34814814" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32980332" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/anti/anti-virus-inde.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti/picture/Cv_Classify.jpg" />
+    <entry file="file://$PROJECT_DIR$/anti/draw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti/catboost_info/learn_error.tsv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti/catboost_info/time_left.tsv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25687" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti/catboost_info/catboost_training.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25735" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti/bao/testmetric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti/bao/cls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="40" column="16" lean-forward="true" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti/testPH.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti/Catboost_get_Aver_Rank.py" />
+    <entry file="file://$PROJECT_DIR$/anti/Catboost_Rank/Catboost_Rank_3.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti/Catboost_Rank/Catboost_Rank_2.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti/testfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti/Catboost_Rank/Catboost_Rank_1.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti/Acr_Catboost_Model/PC-PseAAC.csv" />
+    <entry file="file://$PROJECT_DIR$/anti/Acr_Catboost_Model/-PDT-Profile.csv" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15383">
+          <caret line="1663" selection-start-line="1663" selection-end-line="1663" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti/Acr-CV.py" />
+    <entry file="file://$PROJECT_DIR$/anti/anti_cv_gbm_svm_4_7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="291" column="18" selection-start-line="291" selection-start-column="18" selection-end-line="291" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/py2/Lib/site-packages/sklearn/svm/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti/testAddNewFeature.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1548974693/nt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="394" column="4" selection-start-line="394" selection-start-column="4" selection-end-line="394" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SequenceEncoding_fasta.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti/testShuffle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="40" selection-start-line="40" selection-end-line="45" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti/CatBoost_Rank.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti/anti-inde-gbm-new-method.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/py2/Lib/site-packages/sklearn/svm/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti/testCV.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1742">
+          <caret line="80" column="47" selection-start-line="80" selection-start-column="47" selection-end-line="80" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti/Catboost_Pre.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1014">
+          <caret line="63" column="11" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/py2/Lib/site-packages/sklearn/svm/classes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12142">
+          <caret line="476" column="19" selection-start-line="476" selection-start-column="19" selection-end-line="476" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti/anti-gespring.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="138" column="21" lean-forward="true" selection-start-line="138" selection-start-column="21" selection-end-line="138" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti/anti-inde-gbm-(feature-select).py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti/csvTofasta.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti/Lightgbm_Rank_mean.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="56" column="34" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti/Acr_CV.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti/anti-fl-pre.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="28" selection-start-line="28" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti/bayesHyperTuning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti/anti-inde-gbm-unbalanced-mean-linux.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="69" column="21" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti/identity-Compute.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti/DrawnewPic.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti/drawpic.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti/evaluation.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti/GW_Feature_Select.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti/anti-inde-gbm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="203" selection-start-line="203" selection-end-line="203" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti/Lightgbm_Pre.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="67" column="26" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
+          <folding>
+            <element signature="e#24#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/py2/Lib/site-packages/pandas/core/indexes/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101322">
+          <caret line="3943" column="11" selection-start-line="3943" selection-start-column="11" selection-end-line="3943" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/py2/Lib/site-packages/joblib/numpy_pickle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13650">
+          <caret line="528" column="24" selection-start-line="528" selection-start-column="24" selection-end-line="528" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti/core_function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5850">
+          <caret line="248" column="45" selection-start-line="248" selection-start-column="45" selection-end-line="248" selection-end-column="45" />
+          <folding>
+            <element signature="e#24#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti/cls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8658">
+          <caret line="334" column="21" selection-start-line="334" selection-start-column="21" selection-end-line="334" selection-end-column="21" />
+          <folding>
+            <marker date="1601023405744" expanded="true" signature="7421:7436" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anti/Lightgbm_Rank.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="51" column="60" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/py2/Lib/pickle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22256">
+          <caret line="862" column="29" selection-start-line="862" selection-start-column="29" selection-end-line="862" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
